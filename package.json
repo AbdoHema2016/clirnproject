@@ -16,7 +16,8 @@
     "testUnits": "yarn test .unit.spec.js",
     "testAppium": "yarn test tests/appium/run.appium.spec.js",
     "appium": "appium",
-    "appium:doctor": "appium-doctor"
+    "appium:doctor": "appium-doctor",
+    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'"
   },
   "lint-staged": {
     "*.js": "lint:eslint"

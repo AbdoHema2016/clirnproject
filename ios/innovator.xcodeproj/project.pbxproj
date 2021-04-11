@@ -19,6 +19,7 @@
 		35987C70254470B2006B213A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35987C6F254470B1006B213A /* LaunchScreen.storyboard */; };
 		67796A1FF1F8C3070004AD4C /* libPods-innovator-innovatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C5B7E0D3C93177D0677AD9 /* libPods-innovator-innovatorTests.a */; };
 		6EA823E87B917D7CFB0CA725 /* libPods-innovator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D149A72F430BB6B0DB22290 /* libPods-innovator.a */; };
+		BC4324EA2622FE16003575BC /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		CAB054ABC7F283F8842BE42F /* libPods-innovator-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 761FB04556A6CE1F71BD0C12 /* libPods-innovator-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -412,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4324EA2622FE16003575BC /* main.jsbundle in Resources */,
 				35987C70254470B2006B213A /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
