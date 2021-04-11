@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import os from 'os';
 import dotenv from 'dotenv';
-import {version} from '../../package.json';
+
 dotenv.config();
 const homedir = os.homedir();
 
@@ -27,7 +27,7 @@ const getIOSAppPath = () => {
     (dir) => dir.indexOf('TestedMeStaging') !== -1,
   );
 
-  return `${appDir}/Build/Products/Staging.Debug-iphonesimulator/tested.me - Staging.app`;
+  return `${appDir}/Build/Products/Staging.Debug-iphonesimulator/innovator-Staging.app`;
 };
 
 export const e2eiOSConfig = () => {
@@ -56,14 +56,14 @@ export const e2eAndroidConfig = () => {
     platformName: 'Android',
     os_version: androidVersion,
     autoGrantPermissions: true,
-    project: 'Tested me',
-    build: version,
+    project: 'First NodeJS project',
+    build: 'Node Android',
     name: 'Appium Tests',
     app:
       customAndroidAppPath ||
       path.join(
         __dirname,
-        '../../android/app/build/outputs/apk/staging/debug/app-staging-debug.apk',
+        '../../android/app/build/outputs/apk/production/debug/app-production-debug.apk',
       ),
   };
   return configAndroid;

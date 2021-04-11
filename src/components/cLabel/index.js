@@ -1,37 +1,16 @@
 import React, {PureComponent} from 'react';
-import {Text, Linking} from 'react-native';
-import Style from './style';
+import {View, Text} from 'react-native';
+import {setTestIdentifier} from '../../utilities/misc';
+
 class CLabel extends PureComponent {
   render() {
-    const {
-      text,
-      style,
-      numberOfLines,
-      onPress,
-      testID,
-      accessibilityLabel,
-      link,
-      url,
-      subText,
-      subTextStyle,
-      ellipsizeMode,
-    } = this.props;
+    const {text, style, testID} = this.props;
     return (
-      <Text
-        testID={testID}
-        accessibilityLabel={accessibilityLabel}
-        numberOfLines={numberOfLines}
-        style={[style]}
-        ellipsizeMode={ellipsizeMode}
-        onPress={onPress}>
-        {text}
-        {link && (
-          <Text style={Style.link} onPress={() => Linking.openURL(url)}>
-            {link}
-          </Text>
-        )}
-        {subText && <Text style={subTextStyle}>{subText}</Text>}
-      </Text>
+      <View>
+        <Text {...setTestIdentifier(testID)} style={[style]}>
+          {text}
+        </Text>
+      </View>
     );
   }
 }

@@ -1,5 +1,5 @@
 import wd from 'wd';
-import {testIds} from '../../../src/Constants';
+import {testIds} from '../../../src/utilities/Constants/appConstants';
 export default async (driver, PlatformOS) => {
   if (PlatformOS === 'ios') {
     const action = new wd.TouchAction(driver);
@@ -7,7 +7,7 @@ export default async (driver, PlatformOS) => {
     await driver.waitForElementByAccessibilityId(testIds.datePicker, 5000);
     await action
       .press({x: 50, y: height - 10})
-      .wait(100)
+      .wait(1000)
       .moveTo({x: 50, y: height - 80})
       .release();
     await action.perform();

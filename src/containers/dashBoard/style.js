@@ -1,26 +1,14 @@
 import {StyleSheet} from 'react-native';
-import {Layout} from '../../utilities';
 
-const {HEX_COLOR_CODES} = Layout;
-
-export const Style = StyleSheet.create({
-  tabIcon: {
-    height: 20,
-    width: 20,
-    marginTop: 8,
-  },
-  tabIconContainer: {
-    height: 24,
-    width: 24,
+const styles = StyleSheet.create({
+  constainer: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
   },
-  selectedTabTitleColor: {
-    color: HEX_COLOR_CODES.GREEN,
+  textStyle: {
+    fontSize: 25,
   },
-  unSelectedTabTitleColor: {
-    color: HEX_COLOR_CODES.BLACK,
-  },
-  headerTitleGrey: {
-    color: HEX_COLOR_CODES.GRAY,
-  },
+  crossButton: {color: '#4A4A4A'},
 });
+export default styles;

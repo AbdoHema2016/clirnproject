@@ -1,78 +1,44 @@
 {
-  "name": "TestedMeStaging",
-  "version": "1.1.22-1",
+  "name": "innovator",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "androidStagingDebug": "react-native run-android --variant=stagingDebug --appIdSuffix=staging",
     "androidProductionDebug": "react-native run-android --variant=productionDebug --appIdSuffix=production",
-    "iosStagingDebug": "react-native run-ios --scheme 'TestedMe.staging'",
-    "iosStaginDebugRealDevice": "react-native run-ios --scheme 'TestedMe.staging' --device 'Neeraj's iPhone'",
-    "iosProductionDebug": "react-native run-ios --scheme 'TestedMe.production'",
+    "iosStagingDebug": "react-native run-ios --scheme 'InnovatorRN_Staging'",
+    "iosProductionDebug": "react-native run-ios --scheme 'InnovatorRN_Production'",
     "start": "react-native start",
     "test": "npx cross-env NODE_ENV=test jest -i -ci",
-    "appium": "appium",
-    "appium:doctor": "appium-doctor",
-    "test:watch": "npx cross-env NODE_ENV=test jest --watchAll",
-    "test:coverage": "npx cross-env NODE_ENV=test jest --coverage",
-    "checkForbiddenWords": "node ./script/checkForbiddenWords.js",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "updateSnapshot": "yarn test -u",
-    "bumpVersion": "npm version patch --no-git-tag-version&&npm version patch --no-git-tag-version",
-    "preRelease": "standard-version --release-as prerelease --skip.commit -t ''",
-    "distributeTagBuild": "node ./script/createGitTag.js",
-    "testAppium": "yarn test tests/appium/run.appium.spec.js",
+    "lint": "eslint . --fix",
+    "podInstall": "npx pod-install ios",
+    "checkForbiddenWords": "node ./scripts/checkForbiddenWords.js",
     "testSnapshots": "yarn test .snap.spec.js",
     "testUnits": "yarn test .unit.spec.js",
-    "uninstall": "node ./script/runPostInstallUninstallTasks.js",
-    "postinstall": "node ./script/runPostInstallUninstallTasks.js&&patch-package",
-    "checkRevieweeCommitStatus": "bash ./script/checkRevieweeCommitStatus.sh"
+    "testAppium": "yarn test tests/appium/run.appium.spec.js",
+    "appium": "appium",
+    "appium:doctor": "appium-doctor"
   },
+  "lint-staged": {
+    "*.js": "lint:eslint"
+  },
+  "pre-commit": "lint:staged",
   "dependencies": {
-    "@expo/react-native-action-sheet": "^3.8.0",
-    "@react-native-async-storage/async-storage": "^1.13.3",
-    "@react-native-community/clipboard": "^1.5.1",
-    "@react-native-community/datetimepicker": "^3.0.9",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-native-community/netinfo": "^5.9.10",
-    "@react-native-community/viewpager": "^4.0.0",
-    "@react-native-firebase/analytics": "^11.2.0",
-    "@react-native-firebase/app": "^11.2.0",
-    "@react-native-firebase/dynamic-links": "^11.2.0",
-    "@react-native-firebase/messaging": "^11.2.0",
-    "@react-native-picker/picker": "^1.9.10",
-    "@react-navigation/bottom-tabs": "^5.5.1",
-    "@react-navigation/native": "^5.7.3",
-    "@react-navigation/stack": "^5.3.7",
+    "@react-navigation/native": "^5.7.6",
+    "@react-navigation/stack": "^5.9.3",
+    "@reduxjs/toolkit": "^1.5.0",
     "axios": "^0.21.1",
-    "dayjs": "^1.10.4",
-    "i18n-js": "^3.8.0",
-    "instabug-reactnative": "https://github.com/Instabug/Instabug-React-Native#snapshot-android/INSD-4937/v9.1.8.8",
-    "lodash.memoize": "^4.1.2",
-    "moment-timezone": "^0.5.32",
     "react": "16.13.1",
-    "react-native": "0.63.4",
-    "react-native-best-viewpager": "^1.0.4",
-    "react-native-biometrics": "^2.1.4",
-    "react-native-camera": "^3.42.0",
-    "react-native-config": "^1.4.2",
-    "react-native-country-picker-modal": "^2.0.0",
-    "react-native-fast-image": "^8.3.4",
-    "react-native-flash-message": "^0.1.15",
-    "react-native-gesture-handler": "^1.9.0",
-    "react-native-image-picker": "3.1.4",
-    "react-native-image-zoom-viewer": "^3.0.1",
-    "react-native-jumio-mobilesdk": "https://github.com/Jumio/mobile-react.git#v3.9.1",
-    "react-native-keychain": "^6.2.0",
-    "react-native-localize": "^1.4.0",
-    "react-native-otp-autodetect": "git+ssh://git@github.com/uCreateit/react-native-otp-autodetect.git#v1.0",
-    "react-native-otp-verify": "^1.0.3",
-    "react-native-popup-menu": "^0.15.9",
-    "react-native-progress": "^4.1.2",
-    "react-native-safe-area-context": "^1.0.0",
-    "react-native-screens": "^2.7.0",
-    "react-native-splash-screen": "^3.2.0",
-    "react-redux": "^7.2.2",
+    "react-native": "0.63.3",
+    "react-native-config": "^1.3.3",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-i18n": "^2.0.15",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.11.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.2.1",
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3"
   },
@@ -91,6 +57,7 @@
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
     "jest-fetch-mock": "^3.0.3",
@@ -102,7 +69,14 @@
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.4",
     "standard-version": "^9.0.0",
-    "wd": "^1.14.0"
+    "wd": "^1.13.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "node ./scripts/checkCommitMsg.js $HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run testUnits&npm run testSnapshots&npm run checkForbiddenWords&npm run lint",
+      "post-merge": "bash ./scripts/checkForDependencyChange"
+    }
   },
   "jest": {
     "preset": "react-native",
@@ -117,17 +91,7 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/tests/__mocks__/fileMock.js"
     }
   },
-  "husky": {
-    "hooks": {
-      "post-merge": "bash ./script/checkForDependencyChange"
-    }
-  },
-  "main": "index.js",
   "directories": {
     "test": "tests"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }

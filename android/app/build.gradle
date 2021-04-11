@@ -1,15 +1,19 @@
 apply plugin: "com.android.application"
-apply plugin: 'com.google.gms.google-services'
+
+import com.android.build.OutputFile
 
 project.ext.envConfigFiles = [
-    staging: ".env.staging",
-    production: ".env.production",
+   staging: ".env.staging",
+   production: ".env.production",
 ]
 
 apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
-import com.android.build.OutputFile
-import groovy.json.JsonSlurper
+project.ext.vectoricons = [
+    iconFontNames: ['FontAwesome.ttf'] // Name of the font files you want to copy
+]
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 /**
  * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
@@ -87,7 +91,7 @@ import groovy.json.JsonSlurper
  */
 
 project.ext.react = [
-    enableHermes: true,  // clean and rebuild if changing
+    enableHermes: false,  // clean and rebuild if changing
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -105,9 +109,7 @@ def enableSeparateBuildPerCPUArchitecture = false
 /**
  * Run Proguard to shrink the Java bytecode in release builds.
  */
-def
-        enableProguardInReleaseBuilds = true
-
+def enableProguardInReleaseBuilds = false
 
 /**
  * The preferred build flavor of JavaScriptCore.
@@ -129,15 +131,9 @@ def jscFlavor = 'org.webkit:android-jsc:+'
  * on project.ext.react, JavaScript will not be compiled to Hermes Bytecode
  * and the benefits of using Hermes will therefore be sharply reduced.
  */
-def enableHermes = project.ext.react.get("enableHermes", true);
-def getNodePackageVersion() {
-    def packageFile = new File("$rootDir/../package.json")
-    def packageJson = new JsonSlurper().parseText(packageFile.text)
-    def versionNum = packageJson["version"].split("-")[0]
-    return versionNum
-}
+def enableHermes = project.ext.react.get("enableHermes", false);
+
 android {
-    ndkVersion "21.3.6528147"
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     compileOptions {
@@ -146,14 +142,12 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tested.me"
+        applicationId "com.rn.innovator"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 461
-        versionName getNodePackageVersion()
-        multiDexEnabled true
-        missingDimensionStrategy 'react-native-camera', 'general'
-        resValue "string", "build_config_package", "com.tested.me"
+        versionCode 1
+        versionName "1.0"
+        resValue "string", "build_config_package", "com.rn.innovator"
     }
     splits {
         abi {
@@ -185,22 +179,19 @@ android {
     }
 
     flavorDimensions "appType"
-
     productFlavors {
         staging {
             dimension "appType"
             applicationIdSuffix ".staging"
-            resValue "string", "app_name", "tested.me - Staging"
+            resValue "string", "app_name", "innovator - Staging"
         }
-
         production {
             dimension "appType"
             applicationIdSuffix ".production"
-            resValue "string", "app_name", "tested.me"
+            resValue "string", "app_name", "innovator"
         }
     }
 
-   
 
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
@@ -222,17 +213,20 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation 'com.android.support:multidex:1.0.3'
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
-    implementation "com.jumio.android:nv-mrz:3.9.0@aar"
-    implementation "com.jumio.android:nv-barcode:3.9.0@aar"
-   
 
-    configurations.all {
-        resolutionStrategy {
-            force 'com.google.android.material:material:1.1.0'
-            force 'com.facebook.soloader:soloader:0.10.1+'
-        }
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+
+    debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
+      exclude group:'com.facebook.fbjni'
+    }
+
+    debugImplementation("com.facebook.flipper:flipper-network-plugin:${FLIPPER_VERSION}") {
+        exclude group:'com.facebook.flipper'
+        exclude group:'com.squareup.okhttp3', module:'okhttp'
+    }
+
+    debugImplementation("com.facebook.flipper:flipper-fresco-plugin:${FLIPPER_VERSION}") {
+        exclude group:'com.facebook.flipper'
     }
 
     if (enableHermes) {

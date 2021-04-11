@@ -2,10 +2,8 @@ export default async (
   driver,
   PlatformOS,
   btnText,
-  element,
-  searchIdentifier = 'text',
+  element = 'XCUIElementTypeOther',
 ) => {
-  let btnElementType = element || 'XCUIElementTypeOther';
   if (PlatformOS === 'ios') {
     await driver.waitForElementByXPath(
       `//${element}[@name='${btnText}']`,
@@ -17,15 +15,12 @@ export default async (
     done.click();
     return;
   }
-  if (!element) {
-    btnElementType = 'android.widget.TextView';
-  }
   await driver.waitForElementByXPath(
-    `//${btnElementType}[@${searchIdentifier}='${btnText}']`,
+    `//android.widget.TextView[@text='${btnText}']`,
     20000,
   );
   const Save = await driver.elementByXPath(
-    `//${btnElementType}[@${searchIdentifier}='${btnText}']`,
+    `//android.widget.TextView[@text='${btnText}']`,
   );
   Save.click();
 };

@@ -1,12 +1,9 @@
-
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
-use_frameworks!
-$RNFirebaseAsStaticFramework = true
 
+platform :ios, '11.0'
 
-platform :ios, '10.0'
-project 'TestedMeStaging',
+project 'innovator',
   'Debug' => :debug,
   'Release' => :release,
   'Production.Debug' => :debug,
@@ -14,30 +11,32 @@ project 'TestedMeStaging',
   'Staging.Debug' => :debug,
   'Staging.Release' => :release
 
-target 'TestedMeStaging' do
-  # Pods for TestedMeStaging
 
-config = use_native_modules!
-
-  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
-
-
-  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
-
-
-
-  pod 'RNLocalize', :path => '../node_modules/react-native-localize'
-  
+target 'innovator' do
+  config = use_native_modules!
   use_react_native!(:path => config["reactNativePath"])
+  target 'innovatorTests' do
+    inherit! :complete
+    # Pods for testing
+  end
 
+  use_native_modules!
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_flipper!(configurations: ['Debug', 'Production.Debug', 'Staging.Debug'])
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
 end
 
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    if ['iProov', 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
-      target.build_configurations.each do |config|
-          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-      end
-    end
+target 'innovator-tvOS' do
+  # Pods for innovator-tvOS
+
+  target 'innovator-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
   end
 end

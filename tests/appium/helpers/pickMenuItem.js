@@ -4,9 +4,10 @@ export default async (driver, PlatformOS) => {
     const action = new wd.TouchAction(driver);
     let {height} = await driver.getWindowSize();
 
+    await driver.sleep(1000);
     await action
       .press({x: 50, y: height - 10})
-      .wait(100)
+      .wait(1000)
       .moveTo({x: 50, y: height - 80})
       .release();
     await action.perform();

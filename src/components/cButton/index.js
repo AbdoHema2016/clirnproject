@@ -1,9 +1,6 @@
 import React, {PureComponent} from 'react';
-import {View, Text, TouchableOpacity, ActivityIndicator} from 'react-native';
-import style from './styles';
-import {Layout} from '../../utilities';
-
-const {HEX_COLOR_CODES} = Layout;
+import {View, Text, TouchableOpacity} from 'react-native';
+import style from './style';
 
 class CButton extends PureComponent {
   render() {
@@ -13,41 +10,16 @@ class CButton extends PureComponent {
       onPress,
       text,
       disabled,
-      backgroundColor,
-      buttonCustomStyle,
-      loading,
-      children,
-      accessibilityLabel,
-      testID,
-      txtTestID,
     } = this.props;
     return (
       <View style={[style.buttonContainerStyle, buttonContainerStyle]}>
         <TouchableOpacity
-          accessible={true}
-          testID={testID}
-          accessibilityLabel={accessibilityLabel}
-          style={[
-            style.buttonStyle,
-            {backgroundColor: backgroundColor},
-            buttonCustomStyle,
-          ]}
+          style={style.buttonStyle}
           onPress={onPress}
           disabled={disabled}>
-          {loading ? (
-            <ActivityIndicator size="small" color={HEX_COLOR_CODES.GREEN_2} />
-          ) : (
-            <>
-              <Text
-                accessibilityLabel={txtTestID}
-                testID={txtTestID}
-                numberOfLines={1}
-                style={[style.buttonTextStyle, textStyle]}>
-                {text}
-              </Text>
-              {children}
-            </>
-          )}
+          <Text style={[style.buttonTextStyle, textStyle]}>
+            {text.toUpperCase()}
+          </Text>
         </TouchableOpacity>
       </View>
     );
