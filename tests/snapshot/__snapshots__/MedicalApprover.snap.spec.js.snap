@@ -1,0 +1,1874 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Medical Approver screen Snapshot GMC no. not valid 1`] = `
+<RCTScrollView
+  showsVerticalScrollIndicator={false}
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#565655",
+            "fontFamily": "Futura",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 24,
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.ENTER_VALID_GMC" translation]
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "arial",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.MEDICAL_PROFESSIONAL_TITLE" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": "auto",
+            "width": 724,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "height": 48,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "width": "100%",
+            },
+            Object {
+              "backgroundColor": "#F9F9F9",
+            },
+            null,
+          ]
+        }
+      >
+        <TextInput
+          accessibilityLabel="txtFieldMedicalApproverTitle"
+          accessible={true}
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          numberOfLines={1}
+          onChangeText={[Function]}
+          placeholder="[missing \\"en.MEDICAL_APPROVER.MEDICAL_PROFESSIONAL_TITLE_PLACEHOLDER\\" translation]"
+          placeholderTextColor="#8D8C91"
+          rejectResponderTermination={true}
+          returnKeyType="next"
+          style={
+            Array [
+              Object {
+                "color": "#2B342C",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "lineHeight": 20,
+                "paddingLeft": 19,
+                "paddingRight": 19,
+                "width": "100%",
+              },
+              Object {},
+            ]
+          }
+          testID="txtFieldMedicalApproverTitle"
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "arial",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.GMC_NUMBER" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": "auto",
+            "width": 724,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "height": 48,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "width": "100%",
+            },
+            Object {
+              "backgroundColor": "#F9F9F9",
+            },
+            Object {
+              "borderColor": "#FF0000",
+              "borderWidth": 1,
+            },
+          ]
+        }
+      >
+        <TextInput
+          accessibilityLabel="txtFieldUKMedicalApproverGMC"
+          accessible={true}
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          maxLength={7}
+          numberOfLines={1}
+          onChangeText={[Function]}
+          placeholder="[missing \\"en.MEDICAL_APPROVER.GMC_NUMBER_PLACEHOLDER\\" translation]"
+          placeholderTextColor="#FF0000"
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "color": "#2B342C",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "lineHeight": 20,
+                "paddingLeft": 19,
+                "paddingRight": 19,
+                "width": "100%",
+              },
+              Object {},
+            ]
+          }
+          testID="txtFieldUKMedicalApproverGMC"
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "height": 20,
+                "marginRight": 4,
+                "width": 20,
+              },
+            ]
+          }
+        >
+          <FastImageView
+            resizeMode="cover"
+            source={
+              Object {
+                "cache": "immutable",
+                "uri": undefined,
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#FF0000",
+              "fontFamily": "SofiaProRegular",
+              "fontSize": 12,
+              "marginTop": 4,
+            }
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.GMC_NUMBER_ERROR" translation]
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": "12%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="medicalApproverCheckBox"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FF0000",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "height": 24,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "opacity": 1,
+              "width": 24,
+            }
+          }
+          testID="medicalApproverCheckBox"
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "ReactComponent": [Function],
+              }
+            }
+            style={
+              Object {
+                "height": 22,
+                "width": 22,
+              }
+            }
+          />
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "marginLeft": 16,
+            "marginTop": 3,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#565655",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.AGREE_WITH" translation]
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.TERMS_CONDITIONS" translation]
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#02BF8E",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="btnConfirmMedicalApprover"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+        testID="btnConfirmMedicalApprover"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.CONFIRM_SUBMIT" translation]
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Medical Approver screen Snapshot Other Location 1`] = `
+Array [
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#565655",
+          "fontFamily": "Futura",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 24,
+          "marginTop": "12%",
+        },
+      ]
+    }
+  >
+    [missing "en.MEDICAL_APPROVER.FUNCTIONALITY_NOT_AVAILABLE" translation]
+  </Text>,
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "alignSelf": "center",
+          "height": 128,
+          "marginTop": "12%",
+          "width": 128,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="imgCongratsMedicalApprover"
+      resizeMode="cover"
+      source={
+        Object {
+          "cache": "immutable",
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="imgCongratsMedicalApprover"
+    />
+  </View>,
+]
+`;
+
+exports[`Medical Approver screen Snapshot UK Location 1`] = `
+<RCTScrollView
+  showsVerticalScrollIndicator={false}
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#565655",
+            "fontFamily": "Futura",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 24,
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.ENTER_VALID_GMC" translation]
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "arial",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.MEDICAL_PROFESSIONAL_TITLE" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": "auto",
+            "width": 724,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "height": 48,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "width": "100%",
+            },
+            Object {
+              "backgroundColor": "#F9F9F9",
+            },
+            null,
+          ]
+        }
+      >
+        <TextInput
+          accessibilityLabel="txtFieldMedicalApproverTitle"
+          accessible={true}
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          numberOfLines={1}
+          onChangeText={[Function]}
+          placeholder="[missing \\"en.MEDICAL_APPROVER.MEDICAL_PROFESSIONAL_TITLE_PLACEHOLDER\\" translation]"
+          placeholderTextColor="#8D8C91"
+          rejectResponderTermination={true}
+          returnKeyType="next"
+          style={
+            Array [
+              Object {
+                "color": "#2B342C",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "lineHeight": 20,
+                "paddingLeft": 19,
+                "paddingRight": 19,
+                "width": "100%",
+              },
+              Object {},
+            ]
+          }
+          testID="txtFieldMedicalApproverTitle"
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "arial",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.GMC_NUMBER" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": "auto",
+            "width": 724,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "height": 48,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "width": "100%",
+            },
+            Object {
+              "backgroundColor": "#F9F9F9",
+            },
+            null,
+          ]
+        }
+      >
+        <TextInput
+          accessibilityLabel="txtFieldUKMedicalApproverGMC"
+          accessible={true}
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          maxLength={7}
+          numberOfLines={1}
+          onChangeText={[Function]}
+          placeholder="[missing \\"en.MEDICAL_APPROVER.GMC_NUMBER_PLACEHOLDER\\" translation]"
+          placeholderTextColor="#8D8C91"
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "color": "#2B342C",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "lineHeight": 20,
+                "paddingLeft": 19,
+                "paddingRight": 19,
+                "width": "100%",
+              },
+              Object {},
+            ]
+          }
+          testID="txtFieldUKMedicalApproverGMC"
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": "12%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="medicalApproverCheckBox"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FF0000",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "height": 24,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "opacity": 1,
+              "width": 24,
+            }
+          }
+          testID="medicalApproverCheckBox"
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "ReactComponent": [Function],
+              }
+            }
+            style={
+              Object {
+                "height": 22,
+                "width": 22,
+              }
+            }
+          />
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "marginLeft": 16,
+            "marginTop": 3,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#565655",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.AGREE_WITH" translation]
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.TERMS_CONDITIONS" translation]
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#02BF8E",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="btnConfirmMedicalApprover"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+        testID="btnConfirmMedicalApprover"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.CONFIRM_SUBMIT" translation]
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Medical Approver screen Snapshot US Location 1`] = `
+<RCTScrollView
+  showsVerticalScrollIndicator={false}
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#565655",
+            "fontFamily": "Futura",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 24,
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.ENTER_VALID_LICENSE" translation]
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "arial",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.MEDICAL_PROFESSIONAL_TITLE" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": "auto",
+            "width": 724,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "height": 48,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "width": "100%",
+            },
+            Object {
+              "backgroundColor": "#F9F9F9",
+            },
+            null,
+          ]
+        }
+      >
+        <TextInput
+          accessibilityLabel="txtFieldMedicalApproverTitle"
+          accessible={true}
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          numberOfLines={1}
+          onChangeText={[Function]}
+          placeholder="[missing \\"en.MEDICAL_APPROVER.MEDICAL_PROFESSIONAL_TITLE_PLACEHOLDER\\" translation]"
+          placeholderTextColor="#8D8C91"
+          rejectResponderTermination={true}
+          returnKeyType="next"
+          style={
+            Array [
+              Object {
+                "color": "#2B342C",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "lineHeight": 20,
+                "paddingLeft": 19,
+                "paddingRight": 19,
+                "width": "100%",
+              },
+              Object {},
+            ]
+          }
+          testID="txtFieldMedicalApproverTitle"
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "arial",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.LICENSE_NUMBER" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": "auto",
+            "width": 724,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "height": 48,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "width": "100%",
+            },
+            Object {
+              "backgroundColor": "#F9F9F9",
+            },
+            null,
+          ]
+        }
+      >
+        <TextInput
+          accessibilityLabel="txtFieldMedicalApproverLicense"
+          accessible={true}
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          numberOfLines={1}
+          onChangeText={[Function]}
+          placeholder="[missing \\"en.MEDICAL_APPROVER.LICENSE_NUMBER_PLACEHOLDER\\" translation]"
+          placeholderTextColor="#8D8C91"
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "color": "#2B342C",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "lineHeight": 20,
+                "paddingLeft": 19,
+                "paddingRight": 19,
+                "width": "100%",
+              },
+              Object {},
+            ]
+          }
+          testID="txtFieldMedicalApproverLicense"
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "arial",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.STATE" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 4,
+            "flexDirection": "row",
+            "height": 48,
+            "marginTop": 4,
+          },
+          Object {
+            "backgroundColor": "#F7F7F7",
+            "marginTop": 10,
+            "width": 724,
+          },
+          null,
+        ]
+      }
+    >
+      <View>
+        <View>
+          Alabama
+        </View>
+        <View>
+          Alaska
+        </View>
+        <View>
+          American Samoa
+        </View>
+        <View>
+          Arizona
+        </View>
+        <View>
+          Arkansas
+        </View>
+        <View>
+          California
+        </View>
+        <View>
+          Colorado
+        </View>
+        <View>
+          Connecticut
+        </View>
+        <View>
+          Delaware
+        </View>
+        <View>
+          District of Columbia
+        </View>
+        <View>
+          Federated States of Micronesia
+        </View>
+        <View>
+          Florida
+        </View>
+        <View>
+          Georgia
+        </View>
+        <View>
+          Guam
+        </View>
+        <View>
+          Hawaii
+        </View>
+        <View>
+          Idaho
+        </View>
+        <View>
+          Illinois
+        </View>
+        <View>
+          Indiana
+        </View>
+        <View>
+          Iowa
+        </View>
+        <View>
+          Kansas
+        </View>
+        <View>
+          Kentucky
+        </View>
+        <View>
+          Louisiana
+        </View>
+        <View>
+          Maine
+        </View>
+        <View>
+          Marshall Islands
+        </View>
+        <View>
+          Maryland
+        </View>
+        <View>
+          Massachusetts
+        </View>
+        <View>
+          Michigan
+        </View>
+        <View>
+          Minnesota
+        </View>
+        <View>
+          Mississippi
+        </View>
+        <View>
+          Missouri
+        </View>
+        <View>
+          Montana
+        </View>
+        <View>
+          Nebraska
+        </View>
+        <View>
+          Nevada
+        </View>
+        <View>
+          New Hampshire
+        </View>
+        <View>
+          New Jersey
+        </View>
+        <View>
+          New Mexico
+        </View>
+        <View>
+          New York
+        </View>
+        <View>
+          North Carolina
+        </View>
+        <View>
+          North Dakota
+        </View>
+        <View>
+          Northern Mariana Islands
+        </View>
+        <View>
+          Ohio
+        </View>
+        <View>
+          Oklahoma
+        </View>
+        <View>
+          Oregon
+        </View>
+        <View>
+          Palau
+        </View>
+        <View>
+          Pennsylvania
+        </View>
+        <View>
+          Puerto Rico
+        </View>
+        <View>
+          Rhode Island
+        </View>
+        <View>
+          South Carolina
+        </View>
+        <View>
+          South Dakota
+        </View>
+        <View>
+          Tennessee
+        </View>
+        <View>
+          Texas
+        </View>
+        <View>
+          Utah
+        </View>
+        <View>
+          Vermont
+        </View>
+        <View>
+          Virgin Island
+        </View>
+        <View>
+          Virginia
+        </View>
+        <View>
+          Washington
+        </View>
+        <View>
+          West Virginia
+        </View>
+        <View>
+          Wisconsin
+        </View>
+        <View>
+          Wyoming
+        </View>
+      </View>
+      <Image
+        source={
+          Object {
+            "ReactComponent": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 9,
+            "position": "absolute",
+            "right": 18,
+            "width": 18,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": "12%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="medicalApproverCheckBox"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FF0000",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "height": 24,
+              "justifyContent": "center",
+              "marginTop": 4,
+              "opacity": 1,
+              "width": 24,
+            }
+          }
+          testID="medicalApproverCheckBox"
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "ReactComponent": [Function],
+              }
+            }
+            style={
+              Object {
+                "height": 22,
+                "width": 22,
+              }
+            }
+          />
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "marginLeft": 16,
+            "marginTop": 3,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#565655",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.AGREE_WITH" translation]
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.TERMS_CONDITIONS" translation]
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#02BF8E",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="btnConfirmMedicalApprover"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+        testID="btnConfirmMedicalApprover"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.CONFIRM_SUBMIT" translation]
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Medical Approver screen Snapshot choose Location 1`] = `
+<RCTScrollView
+  showsVerticalScrollIndicator={false}
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "marginTop": "12%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#565655",
+            "fontFamily": "arial",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 24,
+          }
+        }
+      >
+        [missing "en.MEDICAL_APPROVER.WISH_TO_BECOME" translation]
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#02BF8E",
+            "fontFamily": "arial",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
+          }
+        }
+      >
+        [missing "en.MEDICAL_APPROVER.TESTED_ME" translation]
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#565655",
+            "fontFamily": "arial",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 24,
+          }
+        }
+      >
+        [missing "en.MEDICAL_APPROVER.MEDICAL_APPROVER" translation]
+      </Text>
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#565655",
+          "fontFamily": "Futura",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 24,
+          "marginTop": "20%",
+        }
+      }
+    >
+      [missing "en.MEDICAL_APPROVER.CHOOSE_LOCATION" translation]
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "marginTop": "8%",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="btnMedicalApproverUKLocation"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+        testID="btnMedicalApproverUKLocation"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#565655",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.UNITED_KINGDOM" translation]
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "marginTop": "8%",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="btnMedicalApproverUSLocation"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+        testID="btnMedicalApproverUSLocation"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#565655",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.UNITED_STATES" translation]
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "marginTop": "8%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#565655",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.OTHER_LOCATION" translation]
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#D1D1D6",
+            "marginTop": "12%",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="btnConfirmMedicalApproverLocation"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+        testID="btnConfirmMedicalApproverLocation"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Futura",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          [missing "en.MEDICAL_APPROVER.CONFIRM_SUBMIT" translation]
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Medical Approver screen Snapshot trigger medical approver request flow 1`] = `
+Array [
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#565655",
+          "fontFamily": "arial",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 24,
+          "marginTop": "12%",
+        },
+      ]
+    }
+  >
+    [missing "en.MEDICAL_APPROVER.TRIGGER_VACCINE_APPROVAL" translation]
+  </Text>,
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 4,
+          "height": 52,
+          "justifyContent": "center",
+          "shadowColor": "#DDDDDD",
+          "shadowOffset": Object {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.75,
+          "shadowRadius": 4,
+        },
+        Object {
+          "backgroundColor": "#02BF8E",
+          "marginTop": "12%",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="triggerMedicalApproverFlow"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": undefined,
+          "borderRadius": 4,
+          "height": "100%",
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 718,
+        }
+      }
+      testID="triggerMedicalApproverFlow"
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontFamily": "SofiaProRegular",
+              "fontSize": 17,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Futura",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        [missing "en.MEDICAL_APPROVER.BECOME_VERIFIER_BTN" translation]
+      </Text>
+    </View>
+  </View>,
+]
+`;
+
+exports[`Medical Approver screen Snapshot wait for Identity verification success 1`] = `
+Array [
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#565655",
+          "fontFamily": "Futura",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 24,
+          "marginTop": "12%",
+        },
+      ]
+    }
+  >
+    [missing "en.MEDICAL_APPROVER.PLEASE_WAIT_VERIFY" translation]
+  </Text>,
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "alignSelf": "center",
+          "height": 128,
+          "marginTop": "12%",
+          "width": 128,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="imgCongratsMedicalApprover"
+      resizeMode="cover"
+      source={
+        Object {
+          "cache": "immutable",
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="imgCongratsMedicalApprover"
+    />
+  </View>,
+]
+`;

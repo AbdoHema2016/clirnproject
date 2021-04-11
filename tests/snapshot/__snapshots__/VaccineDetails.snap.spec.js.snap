@@ -1,0 +1,2058 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vaccine Details Snapshot rejected vaccine Details illegible document (other user profile) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      bounces={false}
+      contentContainerStyle={
+        Object {
+          "paddingBottom": 40,
+        }
+      }
+      keyboardShouldPersistTaps="handled"
+      showsVerticalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-around",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginLeft": 13,
+                "marginTop": 200.1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2B342C",
+                    "fontFamily": "SofiaPro-Medium",
+                    "fontSize": 24,
+                    "fontWeight": "600",
+                  },
+                ]
+              }
+            >
+              [missing "en.VACCINE_SCREEN.VACCINE" translation]
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "height": "auto",
+                "marginLeft": 13,
+                "marginTop": 20,
+                "width": 724,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.NAME" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.HEALTH_CENTRE" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.DATE_TAKEN" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.EXPIRATION_DATE" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#8D8C91",
+                    "fontFamily": "SofiaProRegular",
+                    "fontSize": 12,
+                    "height": 16,
+                    "marginTop": 16,
+                  },
+                ]
+              }
+            >
+              [missing "en.VACCINE_SCREEN.TEST_DOCUMENT" translation]
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderRadius": 4,
+                  "height": 710,
+                  "width": 724,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 4,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  onFastImageLoadEnd={[Function]}
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "cache": "immutable",
+                      "uri": "",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 4,
+                      "flexDirection": "row",
+                      "height": 48,
+                    },
+                    null,
+                    Object {
+                      "backgroundColor": "#02BF8E",
+                      "height": 24,
+                      "position": "absolute",
+                      "right": 16,
+                      "top": 16,
+                      "width": 24,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "borderRadius": 4,
+                        "height": 52,
+                        "justifyContent": "center",
+                        "shadowColor": "#DDDDDD",
+                        "shadowOffset": Object {
+                          "height": 8,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.75,
+                        "shadowRadius": 4,
+                      },
+                      Object {
+                        "height": "100%",
+                        "shadowColor": "rgba(0,0,0,0)",
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": undefined,
+                        "borderRadius": 4,
+                        "height": 24,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "SofiaProRegular",
+                            "fontSize": 17,
+                            "textAlign": "center",
+                          },
+                          undefined,
+                        ]
+                      }
+                    />
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Array [
+                            Object {
+                              "height": 18,
+                              "position": "absolute",
+                              "right": 18,
+                              "width": 18,
+                            },
+                            Object {
+                              "height": 24,
+                              "left": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "width": 24,
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "cache": "immutable",
+                            "uri": undefined,
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <ActivityIndicator
+                animating={true}
+                color="#00ff00"
+                hidesWhenStopped={true}
+                size="large"
+                style={
+                  Object {
+                    "alignContent": "center",
+                    "justifyContent": "center",
+                    "left": "47%",
+                    "position": "absolute",
+                    "top": "45%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 4,
+                  "flexDirection": "row",
+                  "height": 48,
+                },
+                null,
+                Object {
+                  "alignSelf": "center",
+                  "backgroundColor": "#02BF8E",
+                  "borderRadius": 4,
+                  "bottom": 32,
+                  "height": 45,
+                  "marginTop": 64,
+                  "width": 724,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 4,
+                    "height": 52,
+                    "justifyContent": "center",
+                    "shadowColor": "#DDDDDD",
+                    "shadowOffset": Object {
+                      "height": 8,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.75,
+                    "shadowRadius": 4,
+                  },
+                  Object {
+                    "height": "100%",
+                    "shadowColor": "rgba(0,0,0,0)",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="edit vaccine date"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": undefined,
+                    "borderRadius": 4,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 724,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "SofiaProRegular",
+                        "fontSize": 17,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "Futura",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  [missing "en.STRINGS.VERIFY" translation]
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "height": 18,
+                          "position": "absolute",
+                          "right": 18,
+                          "width": 18,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <FastImageView
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "cache": "immutable",
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 4,
+                  "flexDirection": "row",
+                  "height": 48,
+                },
+                null,
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "borderColor": "#FF6C6C",
+                  "borderRadius": 4,
+                  "borderWidth": 1.5,
+                  "bottom": 32,
+                  "height": 45,
+                  "marginTop": 16,
+                  "width": 724,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 4,
+                    "height": 52,
+                    "justifyContent": "center",
+                    "shadowColor": "#DDDDDD",
+                    "shadowOffset": Object {
+                      "height": 8,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.75,
+                    "shadowRadius": 4,
+                  },
+                  Object {
+                    "height": "100%",
+                    "shadowColor": "rgba(0,0,0,0)",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="Delete vaccine"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": undefined,
+                    "borderRadius": 4,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 724,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "SofiaProRegular",
+                        "fontSize": 17,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#FF6C6C",
+                        "fontFamily": "Futura",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  [missing "en.VACCINE_SCREEN.DENY" translation]
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "height": 18,
+                          "position": "absolute",
+                          "right": 18,
+                          "width": 18,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <FastImageView
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "cache": "immutable",
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`Vaccine Details Snapshot rejected vaccine Details illegible document (own user test) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      bounces={false}
+      contentContainerStyle={
+        Object {
+          "paddingBottom": 40,
+        }
+      }
+      keyboardShouldPersistTaps="handled"
+      showsVerticalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-around",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginLeft": 13,
+                "marginTop": 200.1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2B342C",
+                    "fontFamily": "SofiaPro-Medium",
+                    "fontSize": 24,
+                    "fontWeight": "600",
+                  },
+                ]
+              }
+            >
+              [missing "en.VACCINE_SCREEN.VACCINE" translation]
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "height": "auto",
+                "marginLeft": 13,
+                "marginTop": 20,
+                "width": 724,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.NAME" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.HEALTH_CENTRE" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.DATE_TAKEN" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.EXPIRATION_DATE" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#8D8C91",
+                    "fontFamily": "SofiaProRegular",
+                    "fontSize": 12,
+                    "height": 16,
+                    "marginTop": 16,
+                  },
+                ]
+              }
+            >
+              [missing "en.VACCINE_SCREEN.TEST_DOCUMENT" translation]
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderRadius": 4,
+                  "height": 710,
+                  "width": 724,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 4,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  onFastImageLoadEnd={[Function]}
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "cache": "immutable",
+                      "uri": "",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 4,
+                      "flexDirection": "row",
+                      "height": 48,
+                    },
+                    null,
+                    Object {
+                      "backgroundColor": "#02BF8E",
+                      "height": 24,
+                      "position": "absolute",
+                      "right": 16,
+                      "top": 16,
+                      "width": 24,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "borderRadius": 4,
+                        "height": 52,
+                        "justifyContent": "center",
+                        "shadowColor": "#DDDDDD",
+                        "shadowOffset": Object {
+                          "height": 8,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.75,
+                        "shadowRadius": 4,
+                      },
+                      Object {
+                        "height": "100%",
+                        "shadowColor": "rgba(0,0,0,0)",
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": undefined,
+                        "borderRadius": 4,
+                        "height": 24,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "SofiaProRegular",
+                            "fontSize": 17,
+                            "textAlign": "center",
+                          },
+                          undefined,
+                        ]
+                      }
+                    />
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Array [
+                            Object {
+                              "height": 18,
+                              "position": "absolute",
+                              "right": 18,
+                              "width": 18,
+                            },
+                            Object {
+                              "height": 24,
+                              "left": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "width": 24,
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "cache": "immutable",
+                            "uri": undefined,
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <ActivityIndicator
+                animating={true}
+                color="#00ff00"
+                hidesWhenStopped={true}
+                size="large"
+                style={
+                  Object {
+                    "alignContent": "center",
+                    "justifyContent": "center",
+                    "left": "47%",
+                    "position": "absolute",
+                    "top": "45%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 4,
+                  "flexDirection": "row",
+                  "height": 48,
+                },
+                null,
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "borderColor": "#565655",
+                  "borderRadius": 4,
+                  "borderWidth": 1.5,
+                  "bottom": 32,
+                  "height": 45,
+                  "marginTop": 64,
+                  "width": 724,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 4,
+                    "height": 52,
+                    "justifyContent": "center",
+                    "shadowColor": "#DDDDDD",
+                    "shadowOffset": Object {
+                      "height": 8,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.75,
+                    "shadowRadius": 4,
+                  },
+                  Object {
+                    "height": "100%",
+                    "shadowColor": "rgba(0,0,0,0)",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="edit vaccine date"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": undefined,
+                    "borderRadius": 4,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 724,
+                  }
+                }
+                testID="edit vaccine date"
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "SofiaProRegular",
+                        "fontSize": 17,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#565655",
+                        "fontFamily": "Futura",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "marginTop": 20,
+                      },
+                    ]
+                  }
+                >
+                  [missing "en.VACCINE_SCREEN.EDIT" translation]
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "height": 18,
+                          "position": "absolute",
+                          "right": 18,
+                          "width": 18,
+                        },
+                        Object {
+                          "bottom": "60%",
+                          "position": "relative",
+                          "right": 36,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <FastImageView
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "cache": "immutable",
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 4,
+                  "flexDirection": "row",
+                  "height": 48,
+                },
+                null,
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "borderColor": "#FF6C6C",
+                  "borderRadius": 4,
+                  "borderWidth": 1.5,
+                  "bottom": 32,
+                  "height": 45,
+                  "marginTop": 16,
+                  "width": 724,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 4,
+                    "height": 52,
+                    "justifyContent": "center",
+                    "shadowColor": "#DDDDDD",
+                    "shadowOffset": Object {
+                      "height": 8,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.75,
+                    "shadowRadius": 4,
+                  },
+                  Object {
+                    "height": "100%",
+                    "shadowColor": "rgba(0,0,0,0)",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="Delete vaccine"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": undefined,
+                    "borderRadius": 4,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 724,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "SofiaProRegular",
+                        "fontSize": 17,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#FF6C6C",
+                        "fontFamily": "Futura",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "marginTop": 20,
+                      },
+                    ]
+                  }
+                >
+                  [missing "en.VACCINE_SCREEN.DELETE" translation]
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "height": 18,
+                          "position": "absolute",
+                          "right": 18,
+                          "width": 18,
+                        },
+                        Object {
+                          "bottom": "60%",
+                          "position": "relative",
+                          "right": 40,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <FastImageView
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "cache": "immutable",
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`Vaccine Details Snapshot verified vaccine Details (own user test) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      alwaysBounceVertical={false}
+      bounces={false}
+      contentContainerStyle={
+        Object {
+          "paddingBottom": 40,
+        }
+      }
+      keyboardShouldPersistTaps="handled"
+      showsVerticalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "justifyContent": "space-around",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginLeft": 13,
+                "marginTop": 200.1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2B342C",
+                    "fontFamily": "SofiaPro-Medium",
+                    "fontSize": 24,
+                    "fontWeight": "600",
+                  },
+                ]
+              }
+            >
+              [missing "en.VACCINE_SCREEN.VACCINE" translation]
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "height": "auto",
+                "marginLeft": 13,
+                "marginTop": 20,
+                "width": 724,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.NAME" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.HEALTH_CENTRE" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.DATE_TAKEN" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#8D8C91",
+                      "fontFamily": "SofiaProRegular",
+                      "fontSize": 12,
+                      "height": 16,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                [missing "en.VACCINE_SCREEN.EXPIRATION_DATE" translation]
+              </Text>
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#565655",
+                      "fontFamily": "SofiaPro-Medium",
+                      "fontSize": 18,
+                      "height": 32,
+                      "lineHeight": 32,
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#8D8C91",
+                    "fontFamily": "SofiaProRegular",
+                    "fontSize": 12,
+                    "height": 16,
+                    "marginTop": 16,
+                  },
+                ]
+              }
+            >
+              [missing "en.VACCINE_SCREEN.TEST_DOCUMENT" translation]
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderRadius": 4,
+                  "height": 710,
+                  "width": 724,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 4,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  onFastImageLoadEnd={[Function]}
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "cache": "immutable",
+                      "uri": "",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 4,
+                      "flexDirection": "row",
+                      "height": 48,
+                    },
+                    null,
+                    Object {
+                      "backgroundColor": "#02BF8E",
+                      "height": 24,
+                      "position": "absolute",
+                      "right": 16,
+                      "top": 16,
+                      "width": 24,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "borderRadius": 4,
+                        "height": 52,
+                        "justifyContent": "center",
+                        "shadowColor": "#DDDDDD",
+                        "shadowOffset": Object {
+                          "height": 8,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.75,
+                        "shadowRadius": 4,
+                      },
+                      Object {
+                        "height": "100%",
+                        "shadowColor": "rgba(0,0,0,0)",
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": undefined,
+                        "borderRadius": 4,
+                        "height": 24,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "SofiaProRegular",
+                            "fontSize": 17,
+                            "textAlign": "center",
+                          },
+                          undefined,
+                        ]
+                      }
+                    />
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Array [
+                            Object {
+                              "height": 18,
+                              "position": "absolute",
+                              "right": 18,
+                              "width": 18,
+                            },
+                            Object {
+                              "height": 24,
+                              "left": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "width": 24,
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="contain"
+                        source={
+                          Object {
+                            "cache": "immutable",
+                            "uri": undefined,
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <ActivityIndicator
+                animating={true}
+                color="#00ff00"
+                hidesWhenStopped={true}
+                size="large"
+                style={
+                  Object {
+                    "alignContent": "center",
+                    "justifyContent": "center",
+                    "left": "47%",
+                    "position": "absolute",
+                    "top": "45%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 4,
+                  "flexDirection": "row",
+                  "height": 48,
+                },
+                null,
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "borderColor": "#565655",
+                  "borderRadius": 4,
+                  "borderWidth": 1.5,
+                  "bottom": 32,
+                  "height": 45,
+                  "marginTop": 64,
+                  "width": 724,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 4,
+                    "height": 52,
+                    "justifyContent": "center",
+                    "shadowColor": "#DDDDDD",
+                    "shadowOffset": Object {
+                      "height": 8,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.75,
+                    "shadowRadius": 4,
+                  },
+                  Object {
+                    "height": "100%",
+                    "shadowColor": "rgba(0,0,0,0)",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="edit vaccine date"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": undefined,
+                    "borderRadius": 4,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 724,
+                  }
+                }
+                testID="edit vaccine date"
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "SofiaProRegular",
+                        "fontSize": 17,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#565655",
+                        "fontFamily": "Futura",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "marginTop": 20,
+                      },
+                    ]
+                  }
+                >
+                  [missing "en.VACCINE_SCREEN.EDIT" translation]
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "height": 18,
+                          "position": "absolute",
+                          "right": 18,
+                          "width": 18,
+                        },
+                        Object {
+                          "bottom": "60%",
+                          "position": "relative",
+                          "right": 36,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <FastImageView
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "cache": "immutable",
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 4,
+                  "flexDirection": "row",
+                  "height": 48,
+                },
+                null,
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "borderColor": "#FF6C6C",
+                  "borderRadius": 4,
+                  "borderWidth": 1.5,
+                  "bottom": 32,
+                  "height": 45,
+                  "marginTop": 16,
+                  "width": 724,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 4,
+                    "height": 52,
+                    "justifyContent": "center",
+                    "shadowColor": "#DDDDDD",
+                    "shadowOffset": Object {
+                      "height": 8,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.75,
+                    "shadowRadius": 4,
+                  },
+                  Object {
+                    "height": "100%",
+                    "shadowColor": "rgba(0,0,0,0)",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                accessibilityLabel="Delete vaccine"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": undefined,
+                    "borderRadius": 4,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 724,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "SofiaProRegular",
+                        "fontSize": 17,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#FF6C6C",
+                        "fontFamily": "Futura",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "marginTop": 20,
+                      },
+                    ]
+                  }
+                >
+                  [missing "en.VACCINE_SCREEN.DELETE" translation]
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "height": 18,
+                          "position": "absolute",
+                          "right": 18,
+                          "width": 18,
+                        },
+                        Object {
+                          "bottom": "60%",
+                          "position": "relative",
+                          "right": 40,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <FastImageView
+                    resizeMode="contain"
+                    source={
+                      Object {
+                        "cache": "immutable",
+                        "uri": undefined,
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View />
+</View>
+`;

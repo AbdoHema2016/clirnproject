@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Other user profile screen Snapshot cannot verify Test 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      accessibilityLabel="verify"
+      style={
+        Object {
+          "color": "#02BF8E",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      [missing "en.healthTest.verified" translation]
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot cannot verify vaccine 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      accessibilityLabel="verify"
+      style={
+        Object {
+          "color": "#02BF8E",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      [missing "en.healthTest.verified" translation]
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot different page source 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      accessibilityLabel="verify"
+      style={
+        Object {
+          "color": "#02BF8E",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      [missing "en.healthTest.verified" translation]
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot not verified Test 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#02BF8E",
+        "borderRadius": 4,
+        "height": 42,
+        "right": 8,
+        "width": 95,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="process"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Futura",
+            "fontSize": 16,
+          }
+        }
+      >
+        [missing "en.STRINGS.PROCESS" translation]
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot not verified vaccine 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#02BF8E",
+        "borderRadius": 4,
+        "height": 42,
+        "right": 8,
+        "width": 95,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="process"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Futura",
+            "fontSize": 16,
+          }
+        }
+      >
+        [missing "en.STRINGS.PROCESS" translation]
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot not verified, cannot verify Test 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot not verified, cannot verify vaccine 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot verified Test 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      accessibilityLabel="verify"
+      style={
+        Object {
+          "color": "#02BF8E",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      [missing "en.healthTest.verified" translation]
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Other user profile screen Snapshot verified vaccine 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#D1D1D6",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 10,
+      "paddingVertical": 13,
+    }
+  }
+>
+  <Image
+    style={
+      Object {
+        "borderRadius": 8,
+        "height": 24,
+        "marginLeft": 8,
+        "width": 24,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Futura",
+          "fontSize": 18,
+        }
+      }
+    />
+    <Text
+      accessibilityLabel="verify"
+      style={
+        Object {
+          "color": "#02BF8E",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      [missing "en.healthTest.verified" translation]
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#8D8C91",
+          "fontFamily": "Futura",
+          "fontSize": 12,
+          "marginTop": 4,
+        }
+      }
+    >
+      2021-01-25 00:00:00
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Temperature screen Snapshot Temperature 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F7F7F7",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": 724,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#8D8C91",
+            "fontFamily": "SofiaPro-Medium",
+            "fontSize": 16,
+            "marginTop": 160.07999999999998,
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      6/7
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2B342C",
+            "fontFamily": "SofiaPro-Medium",
+            "fontSize": 24,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      [missing "en.STRINGS.TEMPERATURE_QUERY" translation]
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#8D8C91",
+            "fontFamily": "SofiaPro-Medium",
+            "fontSize": 18,
+            "marginTop": 26,
+          },
+        ]
+      }
+    >
+      [missing "en.STRINGS.TEMPERATURE_SCALE" translation]
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginTop": 104.052,
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "height": 49,
+            "marginLeft": 13,
+            "width": 48,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="SelectFeh"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+        testID="SelectFeh"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#2B342C",
+                "left": 16,
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          °F
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#02BF8E",
+            "borderWidth": 1.5,
+            "height": 49,
+            "marginLeft": 13,
+            "width": 48,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="SelectCel"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+        testID="SelectCel"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#2B342C",
+                "left": 16,
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          °C
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginTop": 104.052,
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 4,
+            "flexDirection": "row",
+            "height": 48,
+            "marginTop": 4,
+          },
+          Object {
+            "borderColor": "#02BF8E",
+            "borderWidth": 1.5,
+            "height": 48,
+            "marginLeft": 13,
+            "width": 116,
+          },
+          null,
+        ]
+      }
+    >
+      <View>
+        <View>
+          34
+        </View>
+        <View>
+          35
+        </View>
+        <View>
+          36
+        </View>
+        <View>
+          37
+        </View>
+        <View>
+          38
+        </View>
+        <View>
+          39
+        </View>
+        <View>
+          40
+        </View>
+        <View>
+          41
+        </View>
+        <View>
+          42
+        </View>
+      </View>
+      <Image
+        source={
+          Object {
+            "ReactComponent": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 9,
+            "position": "absolute",
+            "right": 18,
+            "width": 18,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "marginLeft": 12,
+            "textAlign": "center",
+            "width": 4,
+          },
+        ]
+      }
+    >
+      .
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 4,
+            "flexDirection": "row",
+            "height": 48,
+            "marginTop": 4,
+          },
+          Object {
+            "borderColor": "#02BF8E",
+            "borderWidth": 1.5,
+            "height": 48,
+            "marginLeft": 13,
+            "width": 116,
+          },
+          null,
+        ]
+      }
+    >
+      <View>
+        <View>
+          0
+        </View>
+        <View>
+          1
+        </View>
+        <View>
+          2
+        </View>
+        <View>
+          3
+        </View>
+        <View>
+          4
+        </View>
+        <View>
+          5
+        </View>
+        <View>
+          6
+        </View>
+        <View>
+          7
+        </View>
+        <View>
+          8
+        </View>
+        <View>
+          9
+        </View>
+      </View>
+      <Image
+        source={
+          Object {
+            "ReactComponent": [Function],
+          }
+        }
+        style={
+          Object {
+            "height": 9,
+            "position": "absolute",
+            "right": 18,
+            "width": 18,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "SofiaProRegular",
+            "fontSize": 18,
+            "marginLeft": 12,
+            "marginTop": 12,
+            "textAlign": "center",
+            "width": 32,
+          },
+        ]
+      }
+    >
+      °C
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 158.74599999999998,
+        "height": 50,
+        "justifyContent": "space-between",
+        "position": "absolute",
+        "width": 722,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "height": 52,
+            "justifyContent": "center",
+            "shadowColor": "#DDDDDD",
+            "shadowOffset": Object {
+              "height": 8,
+              "width": 0,
+            },
+            "shadowOpacity": 0.75,
+            "shadowRadius": 4,
+          },
+          Object {
+            "backgroundColor": "#02BF8E",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Continue"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "borderRadius": 4,
+            "height": "100%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 718,
+          }
+        }
+        testID="Continue"
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "SofiaProRegular",
+                "fontSize": 17,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+        >
+          [missing "en.LOGIN_SCREEN_STRINGS.CONTINUE_LABEL" translation]
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessibilityLabel="Skip"
+      accessible={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#2B342C",
+          "fontFamily": "SofiaProRegular",
+          "fontSize": 16,
+          "marginTop": 5,
+          "paddingVertical": 15,
+          "textAlign": "center",
+          "width": 694,
+        }
+      }
+      testID="Skip"
+    >
+      [missing "en.STRINGS.SKIP" translation]
+    </Text>
+  </View>
+</View>
+`;

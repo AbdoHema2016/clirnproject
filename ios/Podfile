@@ -1,0 +1,43 @@
+
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+use_frameworks!
+$RNFirebaseAsStaticFramework = true
+
+
+platform :ios, '10.0'
+project 'TestedMeStaging',
+  'Debug' => :debug,
+  'Release' => :release,
+  'Production.Debug' => :debug,
+  'Production.Release' => :release,
+  'Staging.Debug' => :debug,
+  'Staging.Release' => :release
+
+target 'TestedMeStaging' do
+  # Pods for TestedMeStaging
+
+config = use_native_modules!
+
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
+
+  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+
+
+
+  pod 'RNLocalize', :path => '../node_modules/react-native-localize'
+  
+  use_react_native!(:path => config["reactNativePath"])
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if ['iProov', 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
+      target.build_configurations.each do |config|
+          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      end
+    end
+  end
+end
