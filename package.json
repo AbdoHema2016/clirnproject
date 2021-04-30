@@ -1,6 +1,6 @@
 {
   "name": "innovator",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "androidStagingDebug": "react-native run-android --variant=stagingDebug --appIdSuffix=staging",
