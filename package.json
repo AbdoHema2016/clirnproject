@@ -17,6 +17,7 @@
     "testAppium": "yarn test tests/appium/run.appium.spec.js",
     "appium": "appium",
     "appium:doctor": "appium-doctor",
+    "bumpVersion": "npm version patch --no-git-tag-version&&npm version patch --no-git-tag-version",
     "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'"
   },
   "lint-staged": {
